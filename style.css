@@ -1,0 +1,73 @@
+body
+{
+	background: #EEEEEE url(fon1.png) repeat-y center top;
+	margin: 0;
+
+}
+
+header
+{
+	height: 100px;
+	background-color: rgba(225,225,225, .95);
+	top:0px;
+	width: 100%;
+}
+#main
+{
+	margin-left: 50px;
+}
+footer
+{
+	position: relative;
+	background: url(fon2.png) bottom left no-repeat rgba(225,225,225, .95);
+	min-height: 200px;
+	bottom: 0px;
+	width: 100%;
+}
+
+#content
+{
+	min-height: 440px;
+}
+
+footer p
+{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	color: grey;
+}
+.header
+{
+	font: 40px "Segoe Script";
+	color: grey;
+	text-decoration-line: none;
+	border-right: solid #aaaaaa 4px;
+	border-left: solid #bbbbbb;
+	border-bottom: solid #aaaaaa 4px;
+	background-color: #cccccc;
+	text-decoration: none;
+	margin: 5px;
+}
+
+.header:hover
+{
+	color: rgba(240,240,230, 1);
+	padding-bottom: 2px;
+}
+
+#hide_header
+{	
+	height: 90px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+#content
+{
+	margin: 10px;
+	
+}
+.content
+{
+	border:#bbbbbb solid;
+}
